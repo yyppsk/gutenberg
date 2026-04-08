@@ -9,12 +9,12 @@ export default {
 		'fg-interactive-brand-strong',
 		'fg-interactive-brand-strong-active',
 	],
-	'primary-bgFill2': [ 'bg-interactive-brand-strong-active' ],
-	'primary-surface4': [ 'bg-interactive-brand-weak-active' ],
-	'primary-fgSurface3': [
-		'fg-interactive-brand',
+	'primary-bgFill2': [
+		'bg-interactive-brand-strong-active',
 		'fg-interactive-brand-active',
 	],
+	'primary-surface4': [ 'bg-interactive-brand-weak-active' ],
+	'primary-fgSurface3': [ 'fg-interactive-brand' ],
 	'primary-stroke3': [
 		'bg-thumb-brand',
 		'bg-thumb-brand-active',
@@ -48,7 +48,10 @@ export default {
 		'fg-interactive-error-strong',
 		'fg-interactive-error-strong-active',
 	],
-	'error-bgFill2': [ 'bg-interactive-error-strong-active' ],
+	'error-bgFill2': [
+		'bg-interactive-error-strong-active',
+		'fg-interactive-error-active',
+	],
 	'error-surface2': [
 		'bg-interactive-error-active',
 		'bg-surface-error-weak',
@@ -58,11 +61,7 @@ export default {
 		'bg-surface-error',
 	],
 	'error-fgSurface4': [ 'fg-content-error' ],
-	'error-fgSurface3': [
-		'fg-content-error-weak',
-		'fg-interactive-error',
-		'fg-interactive-error-active',
-	],
+	'error-fgSurface3': [ 'fg-content-error-weak', 'fg-interactive-error' ],
 	'error-stroke3': [
 		'stroke-interactive-error',
 		'stroke-interactive-error-strong',

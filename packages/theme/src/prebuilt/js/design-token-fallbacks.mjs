@@ -73,7 +73,7 @@ export default {
 	'--wpds-color-fg-interactive-brand-strong': '#fff',
 	'--wpds-color-fg-interactive-brand-strong-active': '#fff',
 	'--wpds-color-fg-interactive-error': '#cc1818',
-	'--wpds-color-fg-interactive-error-active': '#cc1818',
+	'--wpds-color-fg-interactive-error-active': '#b90000',
 	'--wpds-color-fg-interactive-error-strong': '#f2efef',
 	'--wpds-color-fg-interactive-error-strong-active': '#f2efef',
 	'--wpds-color-fg-interactive-neutral': '#1e1e1e',
